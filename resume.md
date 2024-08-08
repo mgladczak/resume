@@ -1,7 +1,7 @@
 ---
-title: Viktor Vaughn
+title: Mateusz Gładczak
 ---
-###### [ [Github](https://www.github.com/siph) ] - [ [Blog](https://www.dev.to/siph) ] - [ v.vaughn@gmail.com ] - [ 814 332 8091 ]
+###### [ [Github](https://www.github.com/mgladczak) ] - [ mateusz@gladczak.com ] - [ +48 518 344 299 ]
 #### Experienced project manager with a track record of delivering high-quality results on time and within budget.
 
 ## Skills
