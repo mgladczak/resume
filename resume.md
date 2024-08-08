@@ -19,7 +19,7 @@ title: Mateusz Gładczak
 **Databases**: Redis, Postgres, Neo4j  
 **Tools**: Spring, Kubernetes, Github-Actions, Linux, Nix, Git, Rest, GraphQL
 
-## Experience
+## Work Experience
 ### Jamba Juice
 ##### Senior Project Manager, January 2015 - Present
 - Led cross-functional teams in the successful delivery of multiple software projects, including a major website redesign and a mobile app launch.
