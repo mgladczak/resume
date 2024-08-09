@@ -12,16 +12,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    - uses: cachix/install-nix-action@V27
-      with:
-        github_access_token: ${{ secrets.GITHUB_TOKEN }}
+    # - uses: cachix/install-nix-action@V27
+    #   with:
+    #     github_access_token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Install required packages
+      run: |
+        ln -fs /usr/share/zoneinfo/Europe/Warsaw /etc/localtime
+        apt update -y
+        apt install -y pandoc weasyprint
     - name: Build Resumes
       run: |
         mkdir out
-        nix build
-        cp result/resume/resume.html out/${{ github.actor}}_resume.html
-        cp result/resume/resume.pdf out/${{ github.actor}}_resume.pdf
-        cp result/resume/resume.md out/${{ github.actor}}_resume.md
+        echo "creating pdf from md file"
+        pandoc resume.md --pdf-engine=weasyprint --css=style.css -o resume.pdf
+        cp resume.pdf out/${{ github.actor}}_resume.pdf
+        cp resume.md out/${{ github.actor}}_resume.md
+
     - name: Store Artifacts
       uses: actions/upload-artifact@v4
       with:
