@@ -18,7 +18,7 @@ jobs:
 
     - name: Install required packages
       run: |
-        ln -fs /usr/share/zoneinfo/Europe/Warsaw /etc/localtime
+        # ln -fs /usr/share/zoneinfo/Europe/Warsaw /etc/localtime
         apt update -y
         apt install -y pandoc weasyprint
     - name: Build Resumes
