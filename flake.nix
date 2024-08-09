@@ -20,6 +20,7 @@
         buildInputs = with pkgs; [
           pandoc
           wkhtmltopdf-bin
+          hub
         ];
 
         buildPhase = ''
@@ -63,4 +64,3 @@
         };
       });
 }
-
