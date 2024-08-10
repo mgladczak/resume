@@ -5,7 +5,7 @@ title: Mateusz Gładczak
 #### Experienced project manager with a track record of delivering high-quality results on time and within budget.
 
 ## Skills
-```Project management```
+```Azure DevOps```
 ```Team leadership```
 ```Budget management```
 ```Communication```
@@ -15,8 +15,8 @@ title: Mateusz Gładczak
 ```JIRA```
 ```SQL```
 
-**Languages**: Java, Kotlin, Rust  
-**Databases**: Redis, Postgres, Neo4j  
+**Languages**: Java, Kotlin, Rust
+**Databases**: Redis, Postgres, Neo4j
 **Tools**: Spring, Kubernetes, Github-Actions, Linux, Nix, Git, Rest, GraphQL
 
 ## Work Experience
