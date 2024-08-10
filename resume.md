@@ -11,7 +11,7 @@ title: Mateusz Gładczak
 ```Docker```
 ```Problem-solving```
 ```Agile methodology```
-```Microsoft Project```
+```Linux```
 ```JIRA```
 ```SQL```
 

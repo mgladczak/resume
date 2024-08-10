@@ -39,6 +39,10 @@ jobs:
     needs: generate
     steps:
     - uses: actions/checkout@v4
+
+    - name: Set current date as env variable
+      run: echo "NOW=$(date +'%Y-%m-%d-%H:%M:%S')" >> $GITHUB_ENV
+
     - name: Retrieve Artifacts
       uses: actions/download-artifact@v4
       with:
@@ -59,8 +63,8 @@ jobs:
     - name: Build Release
       shell: bash
       run: |
-        gh release create "${{ steps.current-datetime.outputs.CURRENT_DATETIME }}" \
-          --title "${{ steps.current-datetime.outputs.CURRENT_DATETIME }}" \
+        gh release create "${{ env.NOW }}" \
+          --title "${{ env.NOW }}" \
           --notes "" \
           out/${{ github.actor }}_resume.html \
           out/${{ github.actor }}_resume.md \
