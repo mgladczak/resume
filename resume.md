@@ -12,7 +12,7 @@ title: Mateusz Gładczak
 ```Problem-solving```
 ```Agile methodology```
 ```Linux```
-```JIRA```
+```Windows Server```
 ```SQL```
 
 **Languages**: Java, Kotlin, Rust
