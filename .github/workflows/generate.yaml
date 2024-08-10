@@ -4,7 +4,6 @@ on:
     branches:
       - master
     paths:
-      - flake.*
       - resume.md
       - style.css
 jobs:
