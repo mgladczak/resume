@@ -2,7 +2,7 @@
 title: Mateusz Gładczak
 ---
 ###### [ [Github](https://www.github.com/mgladczak) ] - [ mateusz@gladczak.com ] - [ +48 518 344 299 ]
-#### Experienced project manager with a track record of delivering high-quality results on time and within budget.
+#### Experienced IT professional with passion for simplification and automation, focused on finding solutions that simply works.
 
 ## Skills
 ```Azure DevOps```
