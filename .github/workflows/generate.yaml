@@ -17,8 +17,8 @@ jobs:
 
     - name: Install required packages
       run: |
-        apt update -y
-        apt install -y pandoc weasyprint
+        sudo apt-get update -y
+        sudo apt-get install -y pandoc weasyprint
     - name: Build Resumes
       run: |
         mkdir out
