@@ -7,7 +7,7 @@ title: Mateusz Gładczak
 ## Skills
 ```Azure DevOps```
 ```Azure Cloud```
-```Budget management```
+```Kubernetes```
 ```Communication```
 ```Problem-solving```
 ```Agile methodology```

@@ -23,9 +23,11 @@ jobs:
       run: |
         mkdir out
         echo "creating pdf from md file"
+        pandoc resume.md -t html -f markdown -c style.css --self-contained -o resume.html
         pandoc resume.md --pdf-engine=weasyprint --css=style.css -o resume.pdf
         cp resume.pdf out/${{ github.actor}}_resume.pdf
         cp resume.md out/${{ github.actor}}_resume.md
+        cp resume.html out/${{ github.actor}}_resume.html
 
     - name: Store Artifacts
       uses: actions/upload-artifact@v4
