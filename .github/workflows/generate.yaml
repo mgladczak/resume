@@ -56,7 +56,7 @@ jobs:
         publish_dir: ./public
     - name: Set Tag
       id: current-datetime
-      run: echo "CURRENT_DATETIME=$(date +'%Y-%m-%d-%H_%M_%S%')" >> "$GITHUB_OUTPUT"
+      run: echo "CURRENT_DATETIME=$(date +'%Y-%m-%d-%H_%M_%S')" >> "$GITHUB_OUTPUT"
     - name: Build Release
       shell: bash
       run: |
