@@ -8,7 +8,7 @@ title: Mateusz Gładczak
 ```Azure DevOps```
 ```Azure Cloud```
 ```Kubernetes```
-```Communication```
+```Docker```
 ```Problem-solving```
 ```Agile methodology```
 ```Microsoft Project```
