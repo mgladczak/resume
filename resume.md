@@ -13,7 +13,7 @@ title: Mateusz Gładczak
 ```Agile methodology```
 ```Linux```
 ```Windows Server```
-```SQL```
+```Helm```
 
 **Languages**: Java, Kotlin, Rust
 **Databases**: Redis, Postgres, Neo4j
