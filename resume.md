@@ -14,6 +14,7 @@ title: Mateusz Gładczak
 ```Linux```
 ```Windows Server```
 ```Helm```
+```Gitlab```
 
 **Languages**: Java, Kotlin, Rust
 **Databases**: Redis, Postgres, Neo4j
